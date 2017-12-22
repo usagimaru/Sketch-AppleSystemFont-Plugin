@@ -57,8 +57,8 @@ Under the [MIT](LICENSE).
 
 ## Author
 
-Twitter: @usagimaruma
-GitHub: @usagimaru
-Qiita: @usagimaru
+- Twitter: @usagimaruma
+- GitHub: @usagimaru
+- Qiita: @usagimaru
 
-© Satori Maru.
+© 2017 Satori Maru.
