@@ -1,14 +1,12 @@
 # I want Apple System Font
 
-A Sketch plugin for applying Apple system font to text layers.
-
 <img src="screenshot_ui.png" width=718>
 
 ## What's this ?
 
 Sketchで選択したテキストレイヤーに、Appleの「システムフォント」を適用します。
 
-「システムフォント」とはSan FranciscoとHiragino Sansによる複合フォントで、日本語のグリフが少し小さく、カーニングにも微調整が加えられています。San Franciscoを指定してもメトリクスが異なるのでmacOSやiOSの「システムフォント」と同じ見た目のテキストを再現することができません。Hiragino Sansを指定しても今度は欧文のグリフがヒラギノになってしまいます。
+「システムフォント」とはSan FranciscoとHiragino Sansによる複合フォントで、和欧混植で違和感がないよう日本語のグリフの大きさやカーニングに微調整が加えられています。フォントとしてSan Franciscoを指定してもそのメトリクスがmacOSやiOSの「システムフォント」とは異なるので、Sketch上で同じ見た目のテキストを再現することができません。Hiragino Sansを指定しても今度は欧文のグリフがSFではなくヒラギノになってしまいます。
 残念ながらSketchには「システムフォント」を直接指定する方法が備わっていないので、このプラグインでその機能を拡張することにしました。
 
 <img src="screenshot_rectangles.png" width=964>
@@ -21,7 +19,7 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 
 日本語環境で開発しているので、他の言語環境で正しく動作するか保証できません。
 10.11 Sierraでもおそらくは動くと思いますが、環境がないので動作を保証できません。
-あくまでmacOSの「システムフォント」を利用しているため、iOSのシステムフォントとは見た目等が異なる可能性があります。
+あくまでmacOSのシステムフォントを利用しているため、iOSのシステムフォントとは見た目等が異なる可能性があります。
 
 ## Installation
 
@@ -56,3 +54,11 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 ## License
 
 Under the [MIT](LICENSE).
+
+## Author
+
+Twitter: @usagimaruma
+GitHub: @usagimaru
+Qiita: @usagimaru
+
+© Satori Maru.
