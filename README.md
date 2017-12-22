@@ -25,7 +25,7 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 
 ## Installation
 
-1. Download latest version.
+1. Download [the latest version](https://github.com/usagimaru/Sketch-AppleSystemFont-Plugin/releases/latest).
 2. Unzip the archive.
 3. To install, double-click `sketchplugin` file or direct drag & drop to Sketch's Plugins directory.
 4. Launch Sketch.app
@@ -33,7 +33,7 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 
 --
 
-1. 最新版をここからダウンロードしてください。
+1. [最新版をここからダウンロード](https://github.com/usagimaru/Sketch-AppleSystemFont-Plugin/releases/latest)してください。
 2. それを解凍すると `sketchplugin` ファイルが出来上がります。
 3. `sketchplugin` をダブルクリックするか、Sketchの Plugins ディレクトリーに直接放り込んでインストールしてください。
 4. Skech.appを再起動します。
