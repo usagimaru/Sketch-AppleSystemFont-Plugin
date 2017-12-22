@@ -1,0 +1,70 @@
+{
+  "author" : "usagimaru",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Regular",
+      "handlers" : {
+        "run" : "setAppleSystemRegular"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-regular"
+    },
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Light",
+      "handlers" : {
+        "run" : "setAppleSystemLight"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-light"
+    },
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Medium",
+      "handlers" : {
+        "run" : "setAppleSystemMedium"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-medium"
+    },
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Semibold",
+      "handlers" : {
+        "run" : "setAppleSystemSemibold"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-semibold"
+    },
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Bold",
+      "handlers" : {
+        "run" : "setAppleSystemBold"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-bold"
+    },
+    {
+      "script" : "script.cocoascript",
+      "name" : "System Heavy",
+      "handlers" : {
+        "run" : "setAppleSystemHeavy"
+      },
+      "identifier" : "com.interactionmania.iwantapplesystemfont.system-heavy"
+    }
+  ],
+  "menu" : {
+    "isRoot" : false,
+    "title" : "Set Typeface to Apple System",
+    "items" : [
+      "com.interactionmania.iwantapplesystemfont.system-regular",
+      "com.interactionmania.iwantapplesystemfont.system-light",
+      "com.interactionmania.iwantapplesystemfont.system-medium",
+      "com.interactionmania.iwantapplesystemfont.system-semibold",
+      "com.interactionmania.iwantapplesystemfont.system-bold",
+      "com.interactionmania.iwantapplesystemfont.system-heavy",
+    ]
+  },
+  "identifier" : "com.interactionmania.iwantapplesystemfont",
+  "version" : "0.0.1",
+  "description" : "選択したテキストレイヤーにAppleのシステムフォントを適用します。これにより、macOSの特殊な「システムフォント」をSketchで再現できるようになります。",
+  "authorEmail" : "usagimaruma@gmail.com",
+  "name" : "I want Apple System Font"
+}
