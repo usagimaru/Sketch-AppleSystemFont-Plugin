@@ -1,4 +1,4 @@
-# I want Apple System Font
+# Sketch Plugin “I Want Apple System Font”
 
 <img src="screenshot_ui.png" width=718>
 
@@ -17,8 +17,8 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 - macOS 10.12 High Sierra
 - Sketch Version 48 and later
 
-日本語環境で開発しているので、他の言語環境で正しく動作するか保証できません。
-10.11 Sierraでもおそらくは動くと思いますが、環境がないので動作を保証できません。
+日本語環境で開発しているので、他の言語環境で正しく動作するか保証できません。10.11 Sierraでもおそらくは動くと思いますが、環境がないので動作を保証できません。
+
 あくまでmacOSのシステムフォントを利用しているため、iOSのシステムフォントとは見た目等が異なる可能性があります。
 
 ## Installation
@@ -27,7 +27,7 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 2. Unzip the archive.
 3. To install, double-click `sketchplugin` file or direct drag & drop to Sketch's Plugins directory.
 4. Launch Sketch.app
-5. Then you can see commands `Set Typeface to Apple System` in Plugins menu.
+5. Then you can see commands `Change Typeface to Apple System` in Plugins menu.
 
 --
 
@@ -35,21 +35,23 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 2. それを解凍すると `sketchplugin` ファイルが出来上がります。
 3. `sketchplugin` をダブルクリックするか、Sketchの Plugins ディレクトリーに直接放り込んでインストールしてください。
 4. Skech.appを再起動します。
-5. Pluginsメニューに `Set Typeface to Apple System` メニューが見つかれば成功です。
+5. Pluginsメニューに `Change Typeface to Apple System` メニューが見つかれば成功です。
 
 ## Usage
 
 1. Select text layers.
-2. Run any commands of `Set Typeface to Apple System` in Plugins menu.
+2. Run any commands of `Change Typeface to Apple System` in Plugins menu.
 
 --
 
 1. テキストレイヤーを選択します。
-2. Pluginsメニューの `Set Typeface to Apple System` からコマンドを実行します。
+2. Pluginsメニューの `Change Typeface to Apple System` からコマンドを実行します。
 
-## Shortcut Key
+## Keyboard Shortcuts
 
 システム環境設定のキーボードショートカットで好きなキーの組み合わせを指定することができます。
+
+<img src="screenshot_keyboard.png" width=668>
 
 ## License
 
