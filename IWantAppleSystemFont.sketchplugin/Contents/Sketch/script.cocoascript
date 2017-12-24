@@ -19,7 +19,7 @@ function setAppleSystemFont(layer,weight,isMonospacedDigit) {
 	}
 	else {
 		var font = [NSFont systemFontOfSize:fontSize weight:weight];
-	    layer.setFont(font);
+		layer.setFont(font);
     }
 
     layer.setTextBehaviour(0); // Flexible (Auto)
@@ -34,11 +34,15 @@ function setAppleSystemToSelections(context,weight,isMonospacedDigit) {
 
 	for (var i = 0; i < selectedCount; i++) {
 	    var layer = selectedLayers[i];
+	    var subLayers = layer.children()
 	    
-	    // MSTextLayerに限定
-        if (layer.isKindOfClass(MSTextLayer)) {
-    	    setAppleSystemFont(layer,weight,isMonospacedDigit);
-	    }
+	    // 子レイヤーのうち、ロックされていないMSTextLayerに限定してシステムフォントを設定
+	    subLayers.forEach(function(layer) {
+	    	if (layer.isKindOfClass(MSTextLayer) && !layer.isLocked()) {
+	    		setAppleSystemFont(layer,weight,isMonospacedDigit);	
+		    }	
+	    	//log("child: " + layer.class());
+	    })
 	}
 }
 

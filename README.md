@@ -53,6 +53,37 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 
 <img src="screenshot_keyboard.png" width=668>
 
+## Version History
+
+### 0.0.3
+
+17.12.25 JST
+
+グループを選択した際にも再帰的にテキストレイヤーに対してまとめ設定を可能にした。
+
+- システムフォントまとめ設定
+- ロックレイヤーを適用対象から除外
+
+### 0.0.2
+
+17.12.24 JST
+
+等幅数字に対応。
+
+### 0.0.1
+
+17.12.23 JST
+
+最初の公開版。
+次のウェイトを指定できます。
+
+- Regular
+- Light
+- Medium
+- Semibold
+- Bold
+- Heavy
+
 ## License
 
 Under the [MIT](LICENSE).

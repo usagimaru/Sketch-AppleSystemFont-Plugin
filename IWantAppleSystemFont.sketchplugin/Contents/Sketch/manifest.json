@@ -118,7 +118,7 @@
     ]
   },
   "identifier" : "com.interactionmania.iwantapplesystemfont",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "選択したテキストレイヤーにAppleのシステムフォントを適用します。これにより、macOSやiOSの特殊なシステムフォントをSketchで再現できるようになります。",
   "authorEmail" : "usagimaruma@gmail.com",
   "name" : "I Want Apple System Font"
