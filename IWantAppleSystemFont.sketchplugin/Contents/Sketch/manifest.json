@@ -101,7 +101,7 @@
   ],
   "menu" : {
     "isRoot" : false,
-    "title" : "Change Typeface to Apple System",
+    "title" : "Set Apple System Font",
     "items" : [
       "com.interactionmania.iwantapplesystemfont.system-regular",
       "com.interactionmania.iwantapplesystemfont.system-light",
@@ -109,6 +109,7 @@
       "com.interactionmania.iwantapplesystemfont.system-semibold",
       "com.interactionmania.iwantapplesystemfont.system-bold",
       "com.interactionmania.iwantapplesystemfont.system-heavy",
+      "-",
       "com.interactionmania.iwantapplesystemfont.system-regular-mono-digit",
       "com.interactionmania.iwantapplesystemfont.system-light-mono-digit",
       "com.interactionmania.iwantapplesystemfont.system-medium-mono-digit",
@@ -118,7 +119,7 @@
     ]
   },
   "identifier" : "com.interactionmania.iwantapplesystemfont",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "description" : "選択したテキストレイヤーにAppleのシステムフォントを適用します。これにより、macOSやiOSの特殊なシステムフォントをSketchで再現できるようになります。",
   "authorEmail" : "usagimaruma@gmail.com",
   "name" : "I Want Apple System Font"

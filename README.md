@@ -27,7 +27,7 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 2. Unzip the archive.
 3. To install, double-click `sketchplugin` file or direct drag & drop to Sketch's Plugins directory.
 4. Launch Sketch.app
-5. Then you can see commands `Change Typeface to Apple System` in Plugins menu.
+5. Then you can see commands `Set Apple System Font` in Plugins menu.
 
 --
 
@@ -35,17 +35,17 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 2. それを解凍すると `sketchplugin` ファイルが出来上がります。
 3. `sketchplugin` をダブルクリックするか、Sketchの Plugins ディレクトリーに直接放り込んでインストールしてください。
 4. Skech.appを再起動します。
-5. Pluginsメニューに `Change Typeface to Apple System` メニューが見つかれば成功です。
+5. Pluginsメニューに `Set Apple System Font` メニューが見つかれば成功です。
 
 ## Usage
 
 1. Select text layers.
-2. Run any commands of `Change Typeface to Apple System` in Plugins menu.
+2. Run any commands of `Set Apple System Font` in Plugins menu.
 
 --
 
 1. テキストレイヤーを選択します。
-2. Pluginsメニューの `Change Typeface to Apple System` からコマンドを実行します。
+2. Pluginsメニューの `Set Apple System Font` からコマンドを実行します。
 
 ## Keyboard Shortcuts
 
@@ -54,6 +54,12 @@ Sketchで選択したテキストレイヤーに、Appleの「システムフォ
 <img src="screenshot_keyboard.png" width=668>
 
 ## Version History
+
+### 0.0.4
+
+17.12.28 JST
+
+メニューの整理。
 
 ### 0.0.3
 
